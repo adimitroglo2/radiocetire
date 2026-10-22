@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радио 4 — ERR</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 16px;
+            padding: 24px;
+            width: 100%;
+            max-width: 360px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid #2a2a2a;
+        }
+        h2 {
+            margin: 0 0 8px 0;
+            font-size: 22px;
+            color: #ffffff;
+        }
+        p {
+            margin: 0 0 20px 0;
+            font-size: 14px;
+            color: #aaaaaa;
+        }
+        audio {
+            width: 100%;
+            outline: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Радио 4 (ERR)</h2>
+        <p>Государственное радио Эстонии на русском языке</p>
+        <audio controls autoplay preload="metadata">
+            <source src="http://icecast.err.ee/raadio4.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает встроенный HTML5-плеер.
+        </audio>
+    </div>
+
+</body>
+</html>
